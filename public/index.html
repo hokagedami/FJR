@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Redirecting to App Store</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="script" href="">
+    <script>
+        let platform = window.navigator.userAgent.toLowerCase();
+        if (platform.indexOf('android') === -1
+            || /(android)/i.test(platform)) {
+            console.log(platform);
+            window.location = 'https://payday.app.link/CtbbzYNX01?referral_code=NKNOVAND';
+        } else if (/ipad|iphone|ipod/.test(platform) && !window.MSStream
+            || (platform === 'macintel' && window.navigator.maxTouchPoints > 1)) {
+            console.log(platform);
+            window.location = 'https://payday.app.link/krIbvOaY01?referral_code=NKNOVIOS';
+        } else {
+            console.log(platform);
+        }
+    </script>
+</head>
+<body>
+<div class="lds-roller">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>
+
